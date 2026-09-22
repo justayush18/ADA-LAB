@@ -1,0 +1,7 @@
+PROGRAM 02 - APPLICATIONS
+
+1. Selecting efficient algorithms.
+2. Predicting algorithm scalability.
+3. Comparing algorithms before implementation.
+4. Analysing performance for large datasets.
+5. Understanding practical limitations of exponential algorithms.

@@ -1,0 +1,11 @@
+PROGRAM 02 - LEARNING REFLECTION
+
+This experiment helped me understand how different algorithms grow as the input size increases. The experiment showed that logarithmic growth is slow, linear growth increases proportionally, n log n grows faster than linear, quadratic growth increases rapidly, and exponential growth becomes impractical quickly.
+
+I also learned that measured execution time can vary because of hardware and runtime conditions. Therefore, Big-O notation describes the growth behaviour of an algorithm rather than a fixed execution time.
+
+FACULTY VERIFICATION
+
+Name/Signature: ______________________________
+Date: ______________________________
+Remarks: ____________________________________

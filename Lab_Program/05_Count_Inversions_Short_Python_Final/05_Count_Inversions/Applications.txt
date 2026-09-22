@@ -1,0 +1,7 @@
+PROGRAM 05 - APPLICATIONS
+
+1. Measuring how far an array is from sorted order.
+2. Comparing rankings.
+3. Detecting disagreements between ordered lists.
+4. Data analysis involving ordering.
+5. Studying efficient divide-and-conquer algorithms.

@@ -1,0 +1,26 @@
+PROGRAM 02 - COMPLEXITY ANALYSIS
+
+O(log n)
+Time: O(log n)
+Space: O(1)
+
+O(n)
+Time: O(n)
+Space: O(1)
+
+O(n log n)
+Time: O(n log n)
+Space: O(1)
+
+O(n²)
+Time: O(n²)
+Space: O(1)
+
+O(2ⁿ)
+Time: O(2ⁿ)
+Space: O(n) because of recursion depth.
+
+EXPERIMENTAL NOTE
+Execution time is affected by Python interpreter overhead, processor speed, operating-system scheduling, and other runtime conditions. Therefore, the experiment demonstrates growth trends rather than exact equality between execution time and Big-O notation.
+
+O(2ⁿ) uses smaller input sizes because exponential growth becomes impractical quickly.

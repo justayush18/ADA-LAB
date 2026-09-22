@@ -1,0 +1,83 @@
+PROGRAM 01 - TEST CASES
+
+TEST CASE 1: NORMAL UNSORTED ARRAY
+Input:
+5
+12 7 25 18 10
+
+Expected output:
+Second largest element: 18
+
+TEST CASE 2: ASCENDING ARRAY
+Input:
+6
+2 5 8 11 15 20
+
+Expected output:
+Second largest element: 15
+
+TEST CASE 3: DESCENDING ARRAY
+Input:
+6
+20 15 11 8 5 2
+
+Expected output:
+Second largest element: 15
+
+TEST CASE 4: DUPLICATE MAXIMUM
+Input:
+6
+10 25 25 7 18 4
+
+Expected output:
+Second largest element: 25
+
+TEST CASE 5: NEGATIVE VALUES
+Input:
+5
+-10 -3 -25 -7 -1
+
+Expected output:
+Second largest element: -3
+
+TEST CASE 6: TWO ELEMENTS
+Input:
+2
+40 15
+
+Expected output:
+Second largest element: 15
+
+TEST CASE 7: ALL ELEMENTS EQUAL
+Input:
+5
+8 8 8 8 8
+
+Expected output:
+Second largest element: 8
+
+TEST CASE 8: MIXED VALUES
+Input:
+7
+-20 5 14 -3 30 8 1
+
+Expected output:
+Second largest element: 14
+
+TEST CASE 9: INVALID SIZE
+Input:
+1
+
+Expected output:
+Array must contain at least two elements.
+
+TEST CASE 10: LARGE DATASET
+Use n = 10000 or n = 100000.
+
+Purpose:
+- Measure execution time.
+- Observe comparison count.
+- Study scalability of the O(n) algorithm.
+
+OUTPUT SCREENSHOT
+Run the Python program on the student's system and capture the actual console output. Do not use fabricated execution-time values or screenshots from another source.

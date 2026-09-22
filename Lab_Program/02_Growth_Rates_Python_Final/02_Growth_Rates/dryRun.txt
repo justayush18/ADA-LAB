@@ -1,0 +1,22 @@
+PROGRAM 02 - DRY RUN
+
+For n = 8:
+
+O(log n):
+1 → 2 → 4 → 8
+Only a few iterations are performed.
+
+O(n):
+The loop executes 8 times.
+
+O(n log n):
+The outer loop executes 8 times and the inner loop performs logarithmic work.
+
+O(n²):
+Two loops execute 8 × 8 = 64 iterations.
+
+O(2ⁿ):
+Each recursive call creates two more calls, so the number of calls grows exponentially.
+
+OBSERVATION
+As n increases, the growth becomes progressively faster from O(log n) to O(2ⁿ).

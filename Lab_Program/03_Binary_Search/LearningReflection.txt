@@ -1,0 +1,13 @@
+PROGRAM 03 - LEARNING REFLECTION
+
+This experiment helped me understand how Binary Search reduces the search space by half after every comparison. I also understood that the recursive and iterative implementations use the same algorithmic idea but manage repetition differently.
+
+The recursive version requires O(log n) auxiliary stack space because of recursive calls, whereas the iterative version requires O(1) auxiliary space.
+
+Both versions have O(log n) average and worst-case time complexity. The comparison helped me understand why an iterative implementation can be preferable when reducing additional memory usage is important.
+
+FACULTY VERIFICATION
+
+Name/Signature: ______________________________
+Date: ______________________________
+Remarks: ____________________________________

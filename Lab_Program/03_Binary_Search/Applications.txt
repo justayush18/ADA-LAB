@@ -1,0 +1,10 @@
+PROGRAM 03 - APPLICATIONS
+
+Binary Search is useful when searching for an element in sorted data.
+
+Applications include:
+1. Searching sorted arrays.
+2. Dictionary and index-based lookup systems.
+3. Searching ordered records.
+4. Finding boundaries or positions in sorted data.
+5. Supporting efficient search operations in larger algorithms.

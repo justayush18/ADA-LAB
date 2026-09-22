@@ -1,0 +1,41 @@
+PROGRAM 05
+
+TITLE
+Modify Merge Sort to Count Inversions in an Array
+
+PROBLEM STATEMENT
+Modify Merge Sort to count the number of inversions in an array and compare its running time with the brute-force inversion-counting algorithm.
+
+An inversion is a pair (i, j) such that i < j and A[i] > A[j].
+
+OBJECTIVE
+1. To understand the concept of inversions.
+2. To modify Merge Sort for inversion counting.
+3. To count inversions efficiently during merging.
+4. To compare the optimized method with brute force.
+5. To analyse their running time.
+
+INPUT
+An array of integers.
+
+EXPECTED OUTPUT
+The number of inversions and execution time for both methods.
+
+ALGORITHM USED
+Modified Merge Sort
+
+REASON FOR SELECTING THIS ALGORITHM
+The laboratory specifically requires Merge Sort to be modified for counting inversions. During merging, when an element from the right half is smaller than an element from the left half, it forms an inversion with every remaining element in the left half.
+
+Thus, several inversions can be counted in one operation instead of checking every pair individually. This reduces the time complexity from O(n²) to O(n log n).
+
+ALGORITHM
+1. Divide the array into two halves.
+2. Recursively count inversions in both halves.
+3. Merge the sorted halves.
+4. When a right-side element is smaller than the current left-side element, add the number of remaining left elements to the inversion count.
+5. Combine the counts from both halves and the merge step.
+6. Return the total number of inversions.
+
+BRUTE-FORCE COMPARISON
+Check every pair of elements. If A[i] > A[j] for i < j, count one inversion.

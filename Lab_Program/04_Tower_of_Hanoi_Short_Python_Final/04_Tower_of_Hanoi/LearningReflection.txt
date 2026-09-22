@@ -1,0 +1,15 @@
+PROGRAM 04 - LEARNING REFLECTION
+
+This experiment helped me understand recursive problem decomposition through the Tower of Hanoi.
+
+The problem follows T(n) = 2T(n-1) + 1 and requires exactly 2^n - 1 moves. Therefore, its time complexity is exponential.
+
+The compact recursive implementation clearly represents the three main operations: moving n-1 disks, moving the largest disk, and moving the remaining n-1 disks.
+
+I also understood that recursion uses additional stack space and that the recursion depth is proportional to the number of disks.
+
+FACULTY VERIFICATION
+
+Name/Signature: ______________________________
+Date: ______________________________
+Remarks: ____________________________________

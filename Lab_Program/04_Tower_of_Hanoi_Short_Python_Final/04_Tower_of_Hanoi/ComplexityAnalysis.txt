@@ -1,0 +1,26 @@
+PROGRAM 04 - COMPLEXITY ANALYSIS
+
+ALGORITHM
+Recursive Tower of Hanoi
+
+RECURRENCE
+T(n) = 2T(n-1) + 1
+
+NUMBER OF MOVES
+T(n) = 2^n - 1
+
+TIME COMPLEXITY
+Best Case: O(2^n)
+Average Case: O(2^n)
+Worst Case: O(2^n)
+
+SPACE COMPLEXITY
+O(n)
+
+The maximum recursion depth is n.
+
+RECURSION TREE
+Each problem of size n creates two subproblems of size n-1 with one disk movement between them. Hence, the number of operations grows exponentially.
+
+EXECUTION-TIME NOTE
+Because the program prints every move, measured execution time also includes console I/O. Large values of n produce a very large number of output operations.

@@ -1,0 +1,49 @@
+PROGRAM 01 - DRY RUN
+
+INPUT
+Array = [12, 7, 25, 18, 10]
+
+STEP 1
+Divide into:
+[12, 7, 25] and [18, 10]
+
+STEP 2
+Compare 12 and 7
+Winner = 12
+Defeated by 12 = [7]
+
+Compare 12 and 25
+Winner = 25
+Defeated by 25 = [12, 7]
+
+STEP 3
+Compare 18 and 10
+Winner = 18
+Defeated by 18 = [10]
+
+STEP 4
+Final comparison:
+25 vs 18
+Winner = 25
+
+Elements directly defeated by 25:
+[12, 18]
+
+STEP 5
+Compare 12 and 18
+Winner = 18
+
+Therefore:
+Second largest = 18
+
+COMPARISON COUNT
+12 vs 7  = 1
+12 vs 25 = 1
+18 vs 10 = 1
+25 vs 18 = 1
+12 vs 18 = 1
+
+Total = 5 comparisons
+
+OBSERVATION
+The algorithm does not sort the complete array. It only examines the elements that directly lost to the maximum.

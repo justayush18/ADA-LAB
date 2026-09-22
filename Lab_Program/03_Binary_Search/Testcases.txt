@@ -1,0 +1,69 @@
+PROGRAM 03 - TEST CASES
+
+TEST CASE 1: TARGET AT MIDDLE
+Input:
+7
+10 20 30 40 50 60 70
+40
+
+Expected index:
+3
+
+TEST CASE 2: TARGET AT BEGINNING
+Input:
+7
+10 20 30 40 50 60 70
+10
+
+Expected index:
+0
+
+TEST CASE 3: TARGET AT END
+Input:
+7
+10 20 30 40 50 60 70
+70
+
+Expected index:
+6
+
+TEST CASE 4: TARGET ABSENT
+Input:
+7
+10 20 30 40 50 60 70
+45
+
+Expected index:
+-1
+
+TEST CASE 5: ONE ELEMENT
+Input:
+1
+50
+50
+
+Expected index:
+0
+
+TEST CASE 6: TARGET SMALLER THAN ALL
+Input:
+5
+10 20 30 40 50
+5
+
+Expected index:
+-1
+
+TEST CASE 7: TARGET GREATER THAN ALL
+Input:
+5
+10 20 30 40 50
+60
+
+Expected index:
+-1
+
+For every valid test case, recursive and iterative versions must return the same index.
+
+OUTPUT SCREENSHOT
+Run the program and capture the actual console output showing both implementations.

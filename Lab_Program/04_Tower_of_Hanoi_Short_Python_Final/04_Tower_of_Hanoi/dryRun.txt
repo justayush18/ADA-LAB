@@ -1,0 +1,22 @@
+PROGRAM 04 - DRY RUN
+
+INPUT
+n = 3
+
+CALL:
+hanoi(3, A, B, C)
+
+EXECUTION:
+1. A -> C
+2. A -> B
+3. C -> B
+4. A -> C
+5. B -> A
+6. B -> C
+7. A -> C
+
+TOTAL MOVES
+2^3 - 1 = 7
+
+RESULT
+All 3 disks are moved from A to C in 7 moves.

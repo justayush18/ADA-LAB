@@ -1,0 +1,38 @@
+PROGRAM 05 - TEST CASES
+
+TEST CASE 1
+Input:
+2 4 1 3 5
+Expected inversions: 3
+
+TEST CASE 2
+Input:
+1 2 3 4 5
+Expected inversions: 0
+
+TEST CASE 3
+Input:
+5 4 3 2 1
+Expected inversions: 10
+
+TEST CASE 4
+Input:
+1 1 1 1
+Expected inversions: 0
+
+TEST CASE 5
+Input:
+3 1 2
+Expected inversions: 2
+
+TEST CASE 6
+Input:
+5
+Expected inversions: 0
+
+VALIDATION
+For every test case:
+Merge Sort inversion count = Brute-force inversion count.
+
+OUTPUT SCREENSHOT
+Run the Python program and capture the actual console output showing both inversion counts and execution times.

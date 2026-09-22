@@ -1,0 +1,30 @@
+PROGRAM 03 - COMPLEXITY ANALYSIS
+
+ALGORITHM
+Binary Search
+
+TIME COMPLEXITY
+Best Case: O(1)
+Average Case: O(log n)
+Worst Case: O(log n)
+
+At every comparison, approximately half of the remaining search space is discarded.
+
+RECURSIVE VERSION
+Time: O(log n)
+Auxiliary Space: O(log n)
+
+The recursive calls create a call stack whose maximum depth is logarithmic.
+
+ITERATIVE VERSION
+Time: O(log n)
+Auxiliary Space: O(1)
+
+The iterative version uses variables instead of recursive call frames.
+
+MEMORY COMPARISON
+Recursive Binary Search requires additional call-stack memory.
+Iterative Binary Search uses constant auxiliary memory.
+
+EXECUTION-TIME NOTE
+Measured execution time can vary because of Python runtime overhead, processor load, and other system conditions. Therefore, theoretical complexity and comparison count should be considered along with measured time.

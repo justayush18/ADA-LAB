@@ -1,0 +1,19 @@
+PROGRAM 01 - LEARNING REFLECTION
+
+This experiment helped me understand that an algorithm should be selected according to the actual requirement of a problem. Since only the second largest element is required, completely sorting the array is unnecessary.
+
+The Tournament Method was selected because it reduces unnecessary comparisons. The maximum element is identified through pairwise comparisons, and the elements that directly lose to the maximum are recorded. The second largest element must be among these elements.
+
+The dry run helped me understand how the comparison history of the maximum can be used to identify the second largest element efficiently.
+
+The algorithm has O(n) time complexity. This is more efficient asymptotically than completely sorting the array using a comparison-based sorting algorithm such as Merge Sort, which requires O(n log n) time.
+
+This experiment strengthened my understanding of algorithm selection, comparison minimization, time complexity, space complexity, dry-run analysis, and experimental testing.
+
+FACULTY VERIFICATION
+
+Name/Signature: ______________________________
+
+Date: ______________________________
+
+Remarks: ____________________________________

@@ -1,0 +1,42 @@
+PROGRAM 01 - COMPLEXITY ANALYSIS
+
+ALGORITHM
+Tournament Method
+
+TIME COMPLEXITY
+
+Finding the maximum among n elements requires n - 1 comparisons.
+
+The maximum can have approximately log2(n) direct opponents in a balanced tournament. The second-largest search therefore requires only a logarithmic number of additional comparisons.
+
+For the balanced tournament:
+Best-case comparison count = n + floor(log2 n) - 2
+Worst-case comparison count = n + ceil(log2 n) - 2
+
+Therefore:
+
+Best Case = O(n)
+Average Case = O(n)
+Worst Case = O(n)
+
+SPACE COMPLEXITY
+
+The recursive calls require O(log n) stack space.
+
+The implementation stores tournament comparison history, resulting in O(n) auxiliary space in the worst case.
+
+Therefore:
+
+Space Complexity = O(n)
+
+WHY NOT SORT?
+
+A sorting-based solution would first arrange all elements and then select the second-largest element. A comparison-based sorting algorithm such as Merge Sort requires O(n log n) time.
+
+Complete sorting is unnecessary because the problem asks for only the second largest element.
+
+The Tournament Method is therefore selected because it directly addresses the required operation and achieves O(n) time complexity.
+
+EXECUTION TIME NOTE
+
+Python execution time can vary because of interpreter overhead, system load, and runtime conditions. Therefore, measured execution time should be treated as experimental evidence, while asymptotic complexity provides the theoretical comparison.

@@ -1,0 +1,36 @@
+PROGRAM 03 - DRY RUN
+
+ARRAY
+[10, 20, 30, 40, 50, 60, 70]
+
+TARGET = 60
+
+STEP 1
+left = 0
+right = 6
+mid = 3
+a[3] = 40
+
+60 > 40
+Search right half.
+
+STEP 2
+left = 4
+right = 6
+mid = 5
+a[5] = 60
+
+60 == 60
+
+RESULT
+Target found at index 5.
+
+The recursive version reaches the same middle positions through recursive calls.
+
+The iterative version reaches them through loop iterations.
+
+COMPARISONS
+1. 60 with 40
+2. 60 with 60
+
+Total = 2 comparisons.

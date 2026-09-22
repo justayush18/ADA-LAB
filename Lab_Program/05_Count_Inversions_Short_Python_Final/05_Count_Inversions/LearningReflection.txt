@@ -1,0 +1,15 @@
+PROGRAM 05 - LEARNING REFLECTION
+
+This experiment helped me understand how Merge Sort can be modified to solve an additional problem efficiently.
+
+The important observation is that during merging, when a right-half element is smaller than a left-half element, it forms inversions with all remaining elements in the left half. Therefore, multiple inversions can be counted at once.
+
+The modified Merge Sort requires O(n log n) time, while brute-force counting requires O(n²) time.
+
+This experiment improved my understanding of divide-and-conquer, algorithm modification, inversion counting, and complexity analysis.
+
+FACULTY VERIFICATION
+
+Name/Signature: ______________________________
+Date: ______________________________
+Remarks: ____________________________________

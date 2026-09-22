@@ -1,0 +1,17 @@
+PROGRAM 02 - TEST CASES
+
+1. Run the predefined increasing input sizes and verify that all five growth rates are measured.
+
+2. Observe O(log n), O(n), and O(n log n) with larger practical inputs.
+
+3. Observe the rapid increase of O(n²).
+
+4. Observe O(2ⁿ) using n = 5, 10, 15, and 20.
+
+EXPECTED TREND
+O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ)
+
+The exact measured times may differ because of runtime conditions.
+
+OUTPUT EVIDENCE
+Capture the actual console output and the generated growth_rates.png graph after executing the program.

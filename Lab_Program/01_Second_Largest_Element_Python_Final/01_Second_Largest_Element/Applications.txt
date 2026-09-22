@@ -1,0 +1,10 @@
+PROGRAM 01 - APPLICATIONS
+
+The Tournament Method is useful for selection problems where only the largest or next-largest element is required rather than a complete sorted order.
+
+Applications include:
+1. Finding the runner-up in a competition.
+2. Ranking and selection problems.
+3. Identifying top candidates without fully sorting the dataset.
+4. Selection-based data analysis.
+5. Problems requiring comparison-efficient identification of extreme values.

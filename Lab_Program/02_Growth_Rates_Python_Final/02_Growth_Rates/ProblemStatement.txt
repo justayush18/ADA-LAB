@@ -1,0 +1,34 @@
+PROGRAM 02
+
+TITLE
+Experimental Verification of Growth Rates of O(log n), O(n), O(n log n), O(n²), and O(2ⁿ)
+
+PROBLEM STATEMENT
+Develop a Python program to experimentally verify the growth rates of O(log n), O(n), O(n log n), O(n²), and O(2ⁿ) by measuring execution time for increasing input sizes and generating an execution-time graph.
+
+OBJECTIVE
+1. To experimentally observe different algorithmic growth rates.
+2. To measure execution time for increasing input sizes.
+3. To compare the five required growth rates.
+4. To generate an execution-time graph.
+5. To relate experimental results to asymptotic complexity.
+
+INPUT
+Increasing input sizes selected according to the practical execution range of each growth rate.
+
+EXPECTED OUTPUT
+Execution-time measurements and a graph showing the growth behaviour.
+
+APPROACH USED
+Experimental Growth-Rate Measurement.
+
+REASON FOR SELECTING THIS APPROACH
+The given laboratory problem is specifically experimental. Therefore, representative operations are used for the five required complexity classes and the same timing procedure is applied to each one.
+
+ALGORITHM
+1. Define a representative operation for each required growth rate.
+2. Select increasing input sizes.
+3. Measure execution time using a high-resolution timer.
+4. Store the measured times.
+5. Plot input size against execution time.
+6. Observe and compare the growth trends.

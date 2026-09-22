@@ -1,0 +1,37 @@
+PROGRAM 05 - DRY RUN
+
+INPUT
+A = [2, 4, 1, 3, 5]
+
+DIVISION
+[2, 4] and [1, 3, 5]
+
+MERGING [2, 4]
+No inversion.
+
+MERGING [1, 3, 5]
+No inversion.
+
+FINAL MERGE
+
+Compare 2 and 1.
+1 is smaller than 2.
+
+Remaining left elements = [2, 4]
+Add 2 inversions:
+(2,1), (4,1)
+
+Compare 2 and 3.
+No inversion.
+
+Compare 4 and 3.
+3 is smaller than 4.
+
+Add 1 inversion:
+(4,3)
+
+TOTAL INVERSIONS
+2 + 1 = 3
+
+RESULT
+Number of inversions = 3

@@ -1,0 +1,37 @@
+PROGRAM 03
+
+TITLE
+Implement Recursive and Iterative Binary Search and Compare Their Performance
+
+PROBLEM STATEMENT
+Implement Binary Search using recursive and iterative implementations. Compare their execution time, number of comparisons, recursion depth, and memory usage for sorted datasets of different sizes.
+
+OBJECTIVE
+1. To implement Binary Search.
+2. To understand recursive and iterative implementations of the same algorithm.
+3. To compare execution time and number of comparisons.
+4. To observe recursion depth and memory usage.
+5. To analyse Binary Search efficiency.
+
+INPUT
+A sorted array, its size, and the target element.
+
+EXPECTED OUTPUT
+The index of the target element, number of comparisons, execution time, and recursion-depth information for both implementations.
+
+ALGORITHM USED
+Binary Search.
+
+REASON FOR SELECTING THIS ALGORITHM
+The laboratory program specifically requires Binary Search and its recursive and iterative implementations. Binary Search is appropriate because the input is sorted and the search space can be reduced by half after each comparison.
+
+The recursive and iterative versions use the same Binary Search logic. Only the implementation technique differs.
+
+ALGORITHM
+1. Set left to the first index and right to the last index.
+2. Find the middle index.
+3. Compare the middle element with the target.
+4. If equal, return the index.
+5. If the target is smaller, continue in the left half.
+6. Otherwise, continue in the right half.
+7. Repeat until the target is found or the search range becomes empty.

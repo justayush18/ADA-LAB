@@ -1,0 +1,7 @@
+PROGRAM 04 - APPLICATIONS
+
+1. Understanding recursive problem decomposition.
+2. Studying recurrence relations.
+3. Analysing recursion trees.
+4. Understanding exponential algorithms.
+5. Demonstrating recursive stack behaviour.

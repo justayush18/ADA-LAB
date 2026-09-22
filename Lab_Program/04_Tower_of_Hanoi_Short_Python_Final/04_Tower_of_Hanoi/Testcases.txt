@@ -1,0 +1,25 @@
+PROGRAM 04 - TEST CASES
+
+1. n = 1
+Expected moves = 1
+
+2. n = 2
+Expected moves = 3
+
+3. n = 3
+Expected moves = 7
+
+4. n = 4
+Expected moves = 15
+
+5. n = 5
+Expected moves = 31
+
+6. n = 10
+Expected moves = 1023
+
+OUTPUT SCREENSHOT
+Execute the Python program and capture the actual console output showing the moves and total number of moves.
+
+NOTE
+Use positive values of n because the compact implementation assumes n >= 1.

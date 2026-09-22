@@ -1,0 +1,83 @@
+PROGRAM 01
+
+TITLE
+Design an Algorithm to Find the Second Largest Element in an Array Using the Minimum Number of Comparisons
+
+PROBLEM STATEMENT
+Given an array containing n elements, design an algorithm to determine the second largest element using the minimum possible number of element comparisons.
+
+OBJECTIVE
+1. To design an efficient comparison-based algorithm for finding the second largest element.
+2. To minimize the number of element comparisons.
+3. To implement the algorithm using Python.
+4. To count the comparisons performed by the algorithm.
+5. To measure the execution time.
+6. To analyse the time and space complexity.
+
+INPUT
+- An integer n representing the number of elements.
+- n integer elements of the array.
+
+CONSTRAINT
+The array must contain at least two elements.
+
+EXPECTED OUTPUT
+- The second largest element.
+- The number of element comparisons.
+- The execution time.
+
+ALGORITHM USED
+Tournament Method
+
+REASON FOR SELECTING THIS ALGORITHM
+The problem specifically requires the second largest element using the minimum number of comparisons. Sorting the complete array performs unnecessary comparisons because the complete ordering of the elements is not required.
+
+The Tournament Method first determines the maximum through pairwise comparisons and records the elements that directly lose to the maximum. The second largest element must be one of these elements. Therefore, only those defeated elements need to be compared after the maximum is found.
+
+The method therefore provides an O(n) solution and is more appropriate for this problem than completely sorting the array.
+
+ALGORITHM STEPS
+1. Divide the array recursively until each part contains one element.
+2. Compare the maximum elements obtained from the two parts.
+3. Keep the larger element as the winner.
+4. Record the element defeated by the winner.
+5. Continue until the overall maximum is obtained.
+6. Collect the elements directly defeated by the maximum.
+7. Find the largest element among those defeated elements.
+8. This element is the second largest.
+9. Count all element comparisons.
+10. Measure execution time.
+
+PSEUDOCODE
+
+TOURNAMENT(A, left, right)
+
+    IF left = right
+        return A[left]
+
+    mid = left + (right - left) / 2
+
+    leftResult = TOURNAMENT(A, left, mid)
+    rightResult = TOURNAMENT(A, mid + 1, right)
+
+    Compare leftResult.maximum and rightResult.maximum
+
+    IF leftResult.maximum >= rightResult.maximum
+        record rightResult.maximum as defeated
+        return leftResult
+    ELSE
+        record leftResult.maximum as defeated
+        return rightResult
+
+
+SECOND_LARGEST(A)
+
+    result = TOURNAMENT(A, 0, n - 1)
+
+    secondLargest = first defeated element
+
+    FOR each remaining defeated element
+        compare with secondLargest
+        update if necessary
+
+    return secondLargest
