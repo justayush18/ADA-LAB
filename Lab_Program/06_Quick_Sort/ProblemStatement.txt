@@ -1,0 +1,36 @@
+PROGRAM 06
+
+TITLE
+Implement Quick Sort Using Four Pivot-Selection Strategies and Compare Their Performance
+
+PROBLEM STATEMENT
+Implement Quick Sort using first, last, middle, and random pivot-selection strategies. Compare their performance on sorted, reverse-sorted, and random datasets.
+
+OBJECTIVE
+1. To implement Quick Sort.
+2. To study different pivot-selection strategies.
+3. To compare execution time for different input arrangements.
+4. To understand the effect of pivot selection on Quick Sort.
+
+INPUT
+An array of integers.
+
+EXPECTED OUTPUT
+The sorted array and execution time for each pivot strategy.
+
+ALGORITHM USED
+Quick Sort
+
+REASON FOR SELECTING THIS ALGORITHM
+The laboratory specifically requires Quick Sort with four pivot-selection strategies. Quick Sort uses divide and conquer, and the selected pivot determines how the array is partitioned. Different pivot choices can therefore produce different performance.
+
+ALGORITHM
+1. Select a pivot.
+2. Move the pivot to the end.
+3. Partition the array around the pivot.
+4. Place the pivot in its correct position.
+5. Recursively sort the left and right partitions.
+6. Continue until each partition has at most one element.
+
+PIVOT STRATEGIES
+First, Last, Middle, Random.

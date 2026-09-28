@@ -1,0 +1,7 @@
+PROGRAM 07 - APPLICATIONS
+
+1. Comparing sorting algorithms for different datasets.
+2. Selecting sorting methods for practical applications.
+3. Database and record ordering.
+4. Data preprocessing.
+5. Algorithm performance analysis.

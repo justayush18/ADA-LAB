@@ -1,0 +1,44 @@
+PROGRAM 07
+
+TITLE
+Compare Merge Sort, Quick Sort, and Heap Sort on Different Types of Datasets
+
+PROBLEM STATEMENT
+Compare the performance of Merge Sort, Quick Sort, and Heap Sort on datasets containing random numbers, duplicate values, and partially sorted data. Analyse their execution time and suitability for different input types.
+
+OBJECTIVE
+1. To implement and compare three sorting algorithms.
+2. To observe their behaviour on different types of datasets.
+3. To measure their execution time.
+4. To understand how input characteristics affect sorting performance.
+5. To identify suitable algorithms based on the observed behaviour.
+
+INPUT
+An array of integers.
+
+EXPECTED OUTPUT
+The sorted array and execution time for Merge Sort, Quick Sort, and Heap Sort.
+
+ALGORITHMS USED
+1. Merge Sort
+2. Quick Sort
+3. Heap Sort
+
+REASON FOR SELECTING THESE ALGORITHMS
+The laboratory specifically requires a comparison of Merge Sort, Quick Sort, and Heap Sort. All three are comparison-based sorting approaches with different design principles and performance characteristics.
+
+Merge Sort uses divide and conquer, Quick Sort uses partitioning around a pivot, and Heap Sort uses a heap data structure. Comparing them on different datasets demonstrates how input characteristics can affect practical performance.
+
+ALGORITHM
+For each sorting algorithm:
+1. Take the input dataset.
+2. Apply the selected sorting method.
+3. Measure execution time.
+4. Display the sorted result.
+5. Repeat for the required datasets.
+6. Compare the measured times.
+
+DATASETS
+1. Random numbers
+2. Duplicate values
+3. Partially sorted data

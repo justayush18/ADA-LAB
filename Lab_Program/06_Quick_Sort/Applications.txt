@@ -1,0 +1,7 @@
+PROGRAM 06 - APPLICATIONS
+
+1. Sorting large datasets.
+2. Database record processing.
+3. Ordering data efficiently.
+4. Divide-and-conquer problem solving.
+5. Performance analysis of sorting algorithms.

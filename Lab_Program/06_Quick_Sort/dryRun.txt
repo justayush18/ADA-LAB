@@ -1,0 +1,28 @@
+PROGRAM 06 - DRY RUN
+
+INPUT
+[5, 2, 8, 1, 6]
+
+Using LAST pivot:
+
+Pivot = 6
+
+5 <= 6 → left
+2 <= 6 → left
+8 > 6  → right
+1 <= 6 → left
+
+After partition:
+[5, 2, 1, 6, 8]
+
+Now sort [5, 2, 1].
+
+Pivot = 1
+
+After partition:
+[1, 2, 5]
+
+FINAL ARRAY:
+[1, 2, 5, 6, 8]
+
+The same process is applied using first, middle, and random pivots.

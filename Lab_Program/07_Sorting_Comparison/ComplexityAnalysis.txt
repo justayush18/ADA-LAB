@@ -1,0 +1,39 @@
+PROGRAM 07 - COMPLEXITY ANALYSIS
+
+MERGE SORT
+Best: O(n log n)
+Average: O(n log n)
+Worst: O(n log n)
+
+Space: O(n)
+
+QUICK SORT
+Best: O(n log n)
+Average: O(n log n)
+Worst: O(n²)
+
+Space: O(n) in this Python implementation because new lists are created during partitioning.
+
+HEAP SORT
+Best: O(n log n)
+Average: O(n log n)
+Worst: O(n log n)
+
+Space: O(n) for the heap copy used in this implementation.
+
+DATASET OBSERVATION
+
+Random Data:
+All three algorithms can generally perform efficiently.
+
+Duplicate Data:
+Quick Sort behaviour depends on the partitioning method. The given implementation places values equal to the pivot on the left side.
+
+Partially Sorted Data:
+Quick Sort can become less balanced depending on pivot selection. Merge Sort and Heap Sort maintain their asymptotic guarantees.
+
+IMPORTANT IMPLEMENTATION NOTE
+The code is intentionally kept short for the laboratory record. The Merge function uses Python's built-in sorted() during the merge step, and Heap Sort uses heapq. Therefore, the program demonstrates the requested comparison but is not a from-scratch implementation of every internal sorting operation.
+
+EXECUTION-TIME NOTE
+Measured execution time depends on Python runtime, system load, hardware, and input size. Therefore, use actual execution results for the experimental comparison.

@@ -1,0 +1,42 @@
+PROGRAM 07 - TEST CASES
+
+TEST CASE 1: RANDOM DATA
+Input:
+5 2 8 1 6
+
+Expected:
+1 2 5 6 8
+
+TEST CASE 2: DUPLICATE VALUES
+Input:
+5 2 5 1 2 8 5
+
+Expected:
+1 2 2 5 5 5 8
+
+TEST CASE 3: PARTIALLY SORTED DATA
+Input:
+1 2 5 4 6 8 7 9
+
+Expected:
+1 2 4 5 6 7 8 9
+
+TEST CASE 4: ALREADY SORTED DATA
+Input:
+1 2 3 4 5 6 7 8
+
+Expected:
+1 2 3 4 5 6 7 8
+
+TEST CASE 5: REVERSE-SORTED DATA
+Input:
+8 7 6 5 4 3 2 1
+
+Expected:
+1 2 3 4 5 6 7 8
+
+VALIDATION
+For every dataset, all three algorithms must produce the same sorted array.
+
+OUTPUT SCREENSHOT
+Run the program separately for the required datasets and capture the actual console output showing the sorted arrays and execution times.

@@ -1,0 +1,25 @@
+PROGRAM 06 - TEST CASES
+
+1. Random:
+5 2 8 1 6
+Expected: 1 2 5 6 8
+
+2. Sorted:
+1 2 3 4 5 6 7 8
+Expected: 1 2 3 4 5 6 7 8
+
+3. Reverse Sorted:
+8 7 6 5 4 3 2 1
+Expected: 1 2 3 4 5 6 7 8
+
+4. Duplicates:
+5 2 5 1 2 8 5
+Expected: 1 2 2 5 5 5 8
+
+5. Negative Values:
+-2 5 -8 3 0
+Expected: -8 -2 0 3 5
+
+For every test case, all four strategies must produce the same sorted array.
+
+Capture the actual console output after execution.

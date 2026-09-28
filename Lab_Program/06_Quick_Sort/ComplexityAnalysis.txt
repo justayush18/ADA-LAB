@@ -1,0 +1,21 @@
+PROGRAM 06 - COMPLEXITY ANALYSIS
+
+ALGORITHM
+Quick Sort
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n²)
+
+Balanced partitions produce O(n log n), while highly unbalanced partitions can produce O(n²).
+
+SPACE COMPLEXITY
+Average recursion space: O(log n)
+Worst recursion space: O(n)
+
+PIVOT EFFECT
+First and last pivots can perform poorly on sorted or reverse-sorted data.
+Middle and random pivots can often provide better partitioning for such inputs.
+
+EXECUTION-TIME NOTE
+Measured time depends on Python runtime, system load, and random pivot selection. Compare trends across datasets rather than relying on one timing value.

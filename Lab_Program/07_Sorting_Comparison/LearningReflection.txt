@@ -1,0 +1,13 @@
+PROGRAM 07 - LEARNING REFLECTION
+
+This experiment helped me understand that different sorting algorithms can have different practical behaviour even when they solve the same problem.
+
+Merge Sort uses divide and conquer, Quick Sort uses partitioning, and Heap Sort uses a heap structure. Testing different datasets helped me understand that input characteristics and pivot selection can affect practical execution time.
+
+I also learned that theoretical complexity and measured execution time are different concepts. Complexity describes how performance grows with input size, while measured time depends on the implementation and execution environment.
+
+FACULTY VERIFICATION
+
+Name/Signature: ______________________________
+Date: ______________________________
+Remarks: ____________________________________

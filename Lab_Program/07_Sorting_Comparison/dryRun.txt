@@ -1,0 +1,40 @@
+PROGRAM 07 - DRY RUN
+
+INPUT
+A = [5, 2, 8, 1, 6]
+
+MERGE SORT
+Divide:
+[5, 2] and [8, 1, 6]
+
+Continue dividing until single elements are obtained.
+Merge the smaller sorted parts.
+
+Result:
+[1, 2, 5, 6, 8]
+
+QUICK SORT
+Choose first element:
+Pivot = 5
+
+Elements <= 5:
+[2, 1]
+
+Elements > 5:
+[8, 6]
+
+Recursively sort both parts.
+
+Result:
+[1, 2, 5, 6, 8]
+
+HEAP SORT
+Create a min-heap from the array.
+
+Repeatedly remove the smallest element:
+1, 2, 5, 6, 8
+
+Result:
+[1, 2, 5, 6, 8]
+
+All three algorithms produce the same sorted result.

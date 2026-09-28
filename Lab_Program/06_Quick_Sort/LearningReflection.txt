@@ -1,0 +1,15 @@
+PROGRAM 06 - LEARNING REFLECTION
+
+This experiment helped me understand that pivot selection can significantly affect Quick Sort performance.
+
+The same Quick Sort procedure can behave differently depending on whether the first, last, middle, or random element is selected as the pivot.
+
+Balanced partitions generally lead to O(n log n), while highly unbalanced partitions can lead to O(n²).
+
+Testing sorted, reverse-sorted, and random datasets helped me understand the importance of choosing an appropriate pivot strategy.
+
+FACULTY VERIFICATION
+
+Name/Signature: ______________________________
+Date: ______________________________
+Remarks: ____________________________________
