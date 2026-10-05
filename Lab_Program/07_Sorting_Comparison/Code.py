@@ -2,13 +2,15 @@ import time
 import heapq
 
 def merge(a):
-    if len(a) <= 1: return a
+    if len(a) <= 1:
+        return a
     m = len(a)//2
     l, r = merge(a[:m]), merge(a[m:])
     return sorted(l + r)
 
 def quick(a):
-    if len(a) <= 1: return a
+    if len(a) <= 1:
+        return a
     p = a[0]
     left = []
     right = []
