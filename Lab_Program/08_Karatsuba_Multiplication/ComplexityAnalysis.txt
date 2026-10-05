@@ -1,0 +1,16 @@
+PROGRAM 08 - COMPLEXITY ANALYSIS
+
+KARATSUBA MULTIPLICATION
+Recurrence: T(n) = 3T(n/2) + O(n)
+Time: O(n^log2(3)) ≈ O(n^1.585)
+Space: O(n) auxiliary recursive stack space.
+
+CONVENTIONAL MULTIPLICATION
+Time: O(n²) for the schoolbook method.
+Space: O(n) depending on representation.
+
+COMPARISON
+Karatsuba uses three recursive multiplications instead of four, giving a better asymptotic time complexity for sufficiently large inputs.
+
+NOTE
+The conventional version uses Python's built-in x * y, which is highly optimized. Actual measured times depend on Python and the system.

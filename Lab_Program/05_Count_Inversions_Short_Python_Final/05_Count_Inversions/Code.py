@@ -7,7 +7,7 @@ def brute(a):
 
 def merge(a):
     if len(a) <= 1:
-        return a, 0
+        return a, 0 
 
     m = len(a)//2
     l, x = merge(a[:m])

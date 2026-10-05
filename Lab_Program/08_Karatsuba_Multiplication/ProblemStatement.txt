@@ -1,0 +1,32 @@
+PROGRAM 08
+
+TITLE
+Karatsuba Multiplication vs Conventional Multiplication
+
+PROBLEM STATEMENT
+Implement Karatsuba multiplication and compare its execution time with conventional multiplication for large integers.
+
+OBJECTIVE
+1. To implement Karatsuba multiplication.
+2. To understand its divide-and-conquer approach.
+3. To compare Karatsuba multiplication with conventional multiplication.
+4. To observe their execution time.
+
+INPUT
+Two positive integers.
+
+EXPECTED OUTPUT
+The product calculated using Karatsuba multiplication and conventional multiplication, along with their execution times.
+
+REASON FOR SELECTING THE ALGORITHM
+Karatsuba multiplication is selected because the laboratory program specifically requires comparison with conventional multiplication. It reduces the number of recursive multiplications and demonstrates the use of divide and conquer.
+
+ALGORITHM
+1. If either number is a single digit, multiply directly.
+2. Divide both numbers into higher and lower parts.
+3. Recursively calculate ac and bd.
+4. Calculate the middle term using (a+b)(c+d) - ac - bd.
+5. Combine the three terms to obtain the result.
+6. Measure the execution time.
+7. Calculate the same product using conventional multiplication.
+8. Compare the results and times.

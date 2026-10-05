@@ -1,0 +1,10 @@
+PROGRAM 08 - TEST CASES
+
+1. 1234 5678 → 7006652
+2. 12 34 → 408
+3. 12345 6789 → 83810205
+4. 9 8 → 72
+5. 1000 2000 → 2000000
+
+For every test case, both methods must produce the same product.
+Capture actual console output for the output screenshot.

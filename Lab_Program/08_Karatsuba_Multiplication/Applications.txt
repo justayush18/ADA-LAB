@@ -1,0 +1,7 @@
+PROGRAM 08 - APPLICATIONS
+
+1. Large integer multiplication.
+2. Numerical computation.
+3. Computer arithmetic.
+4. Mathematical algorithms.
+5. Demonstrating divide-and-conquer optimization.

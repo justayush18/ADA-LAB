@@ -1,0 +1,13 @@
+PROGRAM 08 - LEARNING REFLECTION
+
+This experiment helped me understand how Karatsuba multiplication improves multiplication by reducing the number of recursive multiplications.
+
+I learned that the algorithm uses divide and conquer and calculates the middle term from three recursive products instead of four.
+
+I also learned that theoretical complexity and actual execution time can differ because of recursion overhead and optimized built-in operations.
+
+FACULTY VERIFICATION
+
+Name/Signature: ______________________________
+Date: ______________________________
+Remarks: ____________________________________
